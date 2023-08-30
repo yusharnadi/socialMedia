@@ -35,8 +35,14 @@ const style = StyleSheet.create({
     fontWeight: '600',
   },
   userStoryContainer: {
-    paddingHorizontal: 26,
+    paddingHorizontal: 24,
     marginTop: 12,
+    height: 100,
+  },
+  postStoryContainer: {
+    marginTop: 30,
+    paddingHorizontal: 24,
+    height: '100%',
   },
 });
 export default style;
